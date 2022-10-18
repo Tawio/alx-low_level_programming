@@ -1,19 +1,18 @@
 #include "main.h"
-
 /**
- * print_alphabet - Entry point
- * Description: a function that prints the alphabet,
- * in lowecase followed by a new line
- * Return: void
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
-void print_alphabet(void)
+int main(void)
 {
-	char letter = 'a';
+	char abe[] = "_putchar";
 
-	while (letter <= 'z')
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(letter);
-		letter++;
+		_putchar(abe[c]);
 	}
 	_putchar('\n');
+	return (0);
 }
