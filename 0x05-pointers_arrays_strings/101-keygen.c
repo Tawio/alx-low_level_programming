@@ -1,8 +1,4 @@
-} while (*s++);
-
-	return (num * sign);
-}
-101-keygen.c
+01-keygen.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
